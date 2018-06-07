@@ -1,0 +1,62 @@
+.header{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.left{
+	height: 400px;
+	width:32%;
+	float: left;
+
+}
+.left .l1{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.left .l2{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.left .l3{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.center{
+	    width: 32%;
+    float: left;
+    height: 319px;
+    border: 2px solid black;
+    margin: 5px;
+    margin-left: 21px;
+}
+.r{
+	height: 400px;
+	width:32%;
+	float: left;
+
+}
+.r .r1{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.r .r2{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}
+.r .r3{
+	height:100px;
+	width:100%;
+	border:2px solid black;
+	margin:5px;
+}

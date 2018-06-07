@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cal</title>
+</head>
+<body>
+	First Number:<input type="text" name="fn" id="fn"><br>
+	<input type="button" name="b" onclick="squ()" value="submit">
+	<p id="demo"></p>
+</body>
+<script type="text/javascript">
+	function squ(){
+	var a = document.getElementById("fn").value;
+	var b = squa(a);
+	document.getElementById("demo").innerHTML = "Square of number " + a + " is " + b;
+	}
+	function squa(a){
+			return Number(a)*Number(a);
+	}
+</script>
+</html>

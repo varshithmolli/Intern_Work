@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task6</title>
+</head>
+<body id="b">
+	<select name="colors" id="s" onselect="fun()">
+		<option value="red" id="r">red</option>
+		<option value="blue" id="r">blue</option>
+	</select>
+<!--	<input type="button" name="bn" value="submit" onclick="fun()"> -->
+</body>
+<script type="text/javascript">
+	function fun()
+	{
+		var a = document.getElementById("s").value;
+		//document.getElementById("b").innerHTML = a;
+		document.getElementById("b").style.background = a;
+	}
+</script>
+</html>

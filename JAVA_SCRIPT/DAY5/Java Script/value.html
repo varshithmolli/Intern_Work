@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Val</title>
+</head>
+<body>
+	NUM1:<input type="text" name="fn" id="n"><br>
+	NUM2:<input type="text" name="fn" id="n2"><br>
+	NUM3:<input type="text" name="tn" id="n"><br>
+	NUM4:<input type="text" name="fon" id="n"><br>
+	<input type="button" name="b" onclick="val()" value="submit">
+	<p id="d"></p>
+</body>
+<script type="text/javascript">
+	function val()
+	{
+		var a = document.getElementsById("n").length;
+		document.getElementById("d").innerHTML = a;
+	}
+</script>
+</html>

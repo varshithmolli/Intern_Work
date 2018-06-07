@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task6</title>
+</head>
+<body id="bo">
+	<input type="radio" name="b" value="red"><br>
+	<input type="radio" name="b" value="blue"><br>
+	<input type="button" name="bn" value="submit" onclick="fun()">
+</body>
+<script type="text/javascript">
+	function fun()
+	{
+		var a = document.getElementByName("b").value;
+		document.getElementById("bo").innerHTML = a;
+		document.getElementById("bo").style.background = a;
+	}
+</script>
+</html>

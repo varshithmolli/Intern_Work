@@ -1,0 +1,29 @@
+.m .top{
+    width: 100px;
+    background-color: red;
+    position:relative;
+    left: 0px;
+    height: 200px;
+
+}
+.m .left{
+    height: 200px;
+    width: 100px;
+    background-color: lightblue;
+    position: relative;
+    left: 101px;
+    top: -200px;
+}
+.m .right{
+    height: 200px;
+    width: 100px;
+    background-color: lightgreen;
+    position: relative;
+    left: -0px;
+    bottom: 199px;
+}
+.m{
+	position:relative;
+    width: 400px;
+    border: 2px solid grey;
+    height: 403px;

@@ -1,0 +1,28 @@
+.header{
+	width: 100%;
+	background-color: red;
+	height:100px;
+	margin: 3px; 
+}
+.left{
+	width:30%;
+	background-color:green;
+	height:450px;
+	float:left;
+	margin: 3px;
+}
+.right{
+	width:68%;
+	background-color: blue;
+	height:450px;
+	float:right;
+	margin:3px;
+}
+#clear{
+	clear: both;
+}
+#footer{
+	width: 100%;
+	background-color: yellow;
+	height: 100px;
+}

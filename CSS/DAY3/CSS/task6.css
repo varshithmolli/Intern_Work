@@ -1,0 +1,25 @@
+.l1{
+	background-color: lightgrey;
+    height: 128px;
+    width: 99%;
+    padding: 15px;
+}
+.l1 .l2{
+	    background-color: skyblue;
+    height: 98px;
+    margin: 0px;
+    width: 98%;
+    padding: 15px;
+}
+.l1 .l2 .l3 .l4{
+	    background-color: red;
+    width: 30%;
+    height: 104px;
+    float: left;
+}
+.l1 .l2 .l3 .l5{
+	background-color: black;
+    width: 70%;
+    height: 105px;
+    float: left;
+}

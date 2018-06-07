@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cal Symbols</title>
+</head>
+<body>
+	<input type="text" name="fn" id="fn">
+	<input type="text" name="sn" id="sn"><br>
+	<input type="button" name="b" onclick="add()" value="+">
+	<input type="button" name="b" onclick="sub()" value="-">
+	<input type="button" name="b" onclick="mul()" value="*">
+	<input type="button" name="b" onclick="div()" value="/"><br>
+	<input type="text" name="ans" id="an">
+</body>
+<script type="text/javascript">
+	function add(){
+	var a = document.getElementById("fn").value;
+	var b = document.getElementById("sn").value;
+	var c = Number(a)+Number(b);
+	an.value = c;
+	}
+	function sub(){
+	var a = document.getElementById("fn").value;
+	var b = document.getElementById("sn").value;
+	var c = Number(a)-Number(b);
+	an.value = c;
+	}
+	function mul(){
+	var a = document.getElementById("fn").value;
+	var b = document.getElementById("sn").value;
+	var c = Number(a)*Number(b);
+	an.value = c;
+	}
+	function div(){
+	var a = document.getElementById("fn").value;
+	var b = document.getElementById("sn").value;
+	var c = Number(a)/Number(b);
+	an.value = c;
+	}
+</script>
+</html>

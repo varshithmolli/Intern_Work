@@ -1,0 +1,18 @@
+.top{
+	background-color: red;
+	position: static;
+	width: 40%;
+	height:100px;
+}
+.center{
+	background-color: skyblue;
+	position: static;
+	width:40%;
+	height:100px;
+}
+.bottom{
+	width:40%;
+	background-color:lightgreen;
+	position: static;
+	height:100px;
+}

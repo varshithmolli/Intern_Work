@@ -1,0 +1,37 @@
+.l .l1{
+	height: 200px;
+	background-color: red;
+	width:100%;
+}
+.l .l2{
+	height:500px;
+	background-color: lightgrey;
+	width:100%;
+}
+.l{
+	height:700px;
+	width:25%;
+	float:left;
+}
+.l3{
+	height:700px;
+	width:50%;
+	background-color: blue;
+	float: left;
+}
+.r{
+	height:700px;
+	width:25%;
+	float: left;
+}
+.r .l4{
+	height:500px;
+	background-color: red;
+	width:100%;
+}
+.r .l5{
+	height: 200px;
+	background-color: lightgrey;
+	width:100%;
+
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	Male : <input type="radio" name="gender" value="male">
+	Female : <input type="radio" name="gender" value="female">
+	<input type="button" onclick="totalelements()" value="Total">
+	<p id="demo"></p>
+
+<script>
+		function totalelements(){
+			var nodelist = document.getElementsByName("gender").length;
+			document.getElementById("demo").innerHTML = nodelist;
+		}
+</script>
+
+</body>
+</html>

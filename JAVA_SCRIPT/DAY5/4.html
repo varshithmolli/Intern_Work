@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date</title>
+</head>
+<body>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+	<p id="demo4"></p>
+	<p id="demo5"></p>
+	<h2>Date Difference</h2>
+	Date1:<input type="date" name="d1" id="d1"><br>
+	Date2:<input type="date" name="d2" id="d2"><br>
+	<input type="button" name="cal" value="calculate" onclick="calculate()">
+	<p id="demo6"></p>
+	<h2>Age</h2>
+	DOB:<input type="date" name="d1" id="d3"><br>
+	<input type="button" name="cal" value="calculate" onclick="age()">
+	<p id="demo7"></p>
+</body>
+	<script type="text/javascript">
+		var a = new Date();
+		document.getElementById("demo1").innerHTML = a;
+		var dd = a.getDate();
+		var m = a.getMonth() + 1;
+		var y = a.getFullYear();
+		document.getElementById("demo2").innerHTML = m + "-" + dd + "-" + y;
+		document.getElementById("demo3").innerHTML = m + "/" + dd + "/" + y;
+		document.getElementById("demo4").innerHTML = dd + "-" + m + "-" + y;
+		document.getElementById("demo5").innerHTML = dd + "/" + m + "/" + y;
+		function calculate(){
+		var b = document.getElementById("d1").value;
+		var c = document.getElementById("d2").value;
+		var d =new Date(b);
+		var e = new Date(c);
+		var f = (d - e)/(24*60*60*1000);
+		document.getElementById("demo6").innerHTML = f + "days";
+		} 
+		function age(){
+		var b = document.getElementById("d3").value;
+		var d =new Date(b);
+		var e = new Date();
+		var f = (e.getFullYear() - d.getFullYear());
+		document.getElementById("demo7").innerHTML = f + "years";
+		} 
+
+	</script>
+</html>

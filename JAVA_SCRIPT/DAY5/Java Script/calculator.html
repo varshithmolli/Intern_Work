@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cal</title>
+</head>
+<body>
+	First Number:<input type="text" name="fn" id="fn"><br>
+	Second Number:<input type="text" name="sn" id="sn"><br>
+	<input type="button" name="b" onclick="add()" value="submit">
+	<p id="demo"></p>
+</body>
+<script type="text/javascript">
+	function add(){
+	var a = document.getElementById("fn").value;
+	var b = document.getElementById("sn").value;
+	var c = Number(a)+Number(b);
+	document.getElementById("demo").innerHTML= c;
+	}
+</script>
+</html>

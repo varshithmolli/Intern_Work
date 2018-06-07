@@ -1,0 +1,16 @@
+.left{
+	background-color: blue;
+	width: 58%;
+	height: 625px;
+	float: left;
+	border: dotted;
+	margin:2px;
+}
+.right{
+	background-color: green;
+	width:40%;
+	height:625px;
+	float: right;
+	border: dotted;
+	margin: 2px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cal</title>
+</head>
+<body>
+	<fieldset align="center">
+		<form>
+		<label>Calculate Area of square:</label>
+		<input type="text" name="fn" id="fn"></br>
+		<input type="button" name="b" onclick="squ()" value="Calculate"></br>
+		<input type="text" name="an" id="an"></br>
+	</form>
+	</fieldset>
+</body>
+<script type="text/javascript">
+	function squ(){
+	var a = document.getElementById("fn").value;
+	var c = Number(a)*Number(a);
+	an.value =  c;
+	}
+</script>
+</html>

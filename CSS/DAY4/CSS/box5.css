@@ -1,0 +1,45 @@
+.os1{
+	height: 300px;
+	width:300px;
+	background-color: rgb(226, 126, 54);
+	position: relative;
+	left:500px;
+	top:200px;
+	border: 1px solid black;
+}
+.os2{
+	height: 250px;
+	width:250px;
+	background-color:		rgb(233, 155, 99);
+	left:525px;
+	position: relative;
+	bottom:75px;
+	border: 1px solid black;
+}
+.os3{
+	height:200px;
+	width:200px;
+	background-color: orange;
+	left:550px;
+	bottom:300px;
+	position: relative;
+	border: 1px solid black;
+}
+.os4{
+	height:150px;
+	width:150px;
+	background-color: gold;
+	left:575px;
+	bottom:475px;
+	position: relative;
+	border: 1px solid black;
+}
+.os5{
+	height:100px;
+	width:100px;
+	background-color: khaki;
+	left:600px;
+	bottom:600px;
+	position: relative;
+	border: 1px solid black;
+}
